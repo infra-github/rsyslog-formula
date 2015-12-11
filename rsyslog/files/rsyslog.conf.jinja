@@ -74,3 +74,5 @@ $ActionQueueSaveOnShutdown on
 $template DailyPerHostLogs,"{{ config.logbasepath }}/%HOSTNAME%-%FROMHOST-IP%/%$YEAR%/%$MONTH%/%$DAY%.log"
 *.* -?DailyPerHostLogs
 {% endif %}
+
+$PreserveFQDN on
